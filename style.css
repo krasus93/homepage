@@ -1,0 +1,20 @@
+body {
+    background: #fefefe;
+}
+
+h2 {
+    color: #1460AA
+}
+
+header h1 {
+    background: #d4b732;
+    padding:40px;
+}
+
+article {
+    display:flex;
+    width: 150px;
+    margin-left:200px;
+
+}
+   
