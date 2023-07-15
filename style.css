@@ -1,5 +1,9 @@
 body {
     background: #fefefe;
+    font-family: arial;
+    width:1140px;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 h2 {
