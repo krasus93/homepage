@@ -1,41 +1,64 @@
 body {
     background: #fefefe;
-    font-family: arial;
+    font-family: calibri;
+    font-weight: 600;
     
 	
 }
 
-.main__content {
-    
+.main-content{
+
 }
 
 .navigation{
     font-size: 16px;
     background-color: bisque;
     height: 90px;
-    width: 100%;
+    
 } 
 
-.navigation__button {
+.navigation__box {
+    width: 700px;
+    margin: 50px auto;
+}
+
+.navigation__box--button {
     padding: 50px;
     background-color: aquamarine;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+    width: 700px;
+    margin: 50px auto;
+
 }
 
 .head {
     background-color: #99dfd0;
     padding: 20px;
     height: 100vh;
-    width: 100%;
-}
-
-.head_title{
-    font-weight: 800;
-    font-size: 40px;
-    border-bottom: 1px solid black;
-    margin: 30px auto;
     
 }
+
+.head__box{
+    width: 900px;
+    margin: 50px auto;
+}
+
+.head__box--title{
+    font-weight: 800;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+  
+   
+    
+}
+
+.head__box--surprise {
+    font-size: 60px;
+    color: white;
+}
+
+
+
 
 .head_button {
     background-color: rgb(218, 150, 150);
@@ -44,35 +67,46 @@ body {
     border-radius: 20px;
     font-weight: 800;
     font-size: 30px;
+    
 }
 
 .experience {
     background-color: #ebe48b;
     padding: 20px;
     height: 100vh;
-    width: 100%;
+    
+    
 }
 
-.experience__work {
-    width: 24%;
-    display: inline-block;
+.experience__box{
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.experience__box--work {
+    
+    width:300px;
+    margin: 0px 20px;
+    
 
 }
 
 
-.experience__work--title-work {
+.experience__box--work--title-work {
     
 }
 
 
-.experience__work--descript {
-
+.experience__box--work--description {
+    
 }
 
 h2{
     font-size: 40px;
     font-family: 800;
-    margin: 60px auto;
+    width: 300px;
+    margin: 30px auto;
 }
 
 .skills {
@@ -80,21 +114,32 @@ h2{
     padding: 20px;
     height: 50vh;
     width: 100%;
+   
 }
 
-.skills__all{
+.skills__box{
+    width: 900px;
+    margin: 50px auto;
+}
 
+.skills__box--all{
+    
 }
 
 .courses{
     background-color: #d87fd1;
     padding: 20px;
     height: 50vh;
-    width: 100%;
+    
+
+}
+.course__box{
+    width: 900px;
+    margin: 50px auto;
 
 }
 
-.courses__additional-sills{
+.courses__box--additional-sills{
 
 }
 
@@ -102,13 +147,18 @@ h2{
     background-color: #9fe791;
     padding: 20px;
     height: 50vh;
-    width: 100%;
-
+  
+    
 }
 
-.projects__link {
-    display: inline;
+.projects__box{
+    width: 700px;
+    margin: 50px auto;
+
+}
+.projects__box--link {
     padding: 20px;
+    
     
 }
 
@@ -116,7 +166,14 @@ h2{
     background-color: #c6cfcf;
     padding: 20px;
     height: 50vh;
-    width: 100%;
+    
+}
+
+.contact__data{
+    width: 600px;
+    margin: 50px auto;
+    background-color: rgb(162, 177, 187);
+    padding:40px;
 }
 
 
@@ -129,5 +186,7 @@ footer {
 .footer__content {
     
     margin: 60px auto;
+    background-color: #d87fd1;
+    Width:300px;
 
 }
