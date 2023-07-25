@@ -1,24 +1,133 @@
 body {
     background: #fefefe;
     font-family: arial;
-    width:1140px;
-	margin-left: auto;
-	margin-right:auto;
+    
+	
 }
 
-h2 {
-    color: #1460AA
+.main__content {
+    
 }
 
-header h1 {
-    background: #d4b732;
-    padding:40px;
+.navigation{
+    font-size: 16px;
+    background-color: bisque;
+    height: 90px;
+    width: 100%;
+} 
+
+.navigation__button {
+    padding: 50px;
+    background-color: aquamarine;
+    border-bottom: 1px solid black;
 }
 
-article {
-    display:flex;
-    width: 150px;
-    margin-left:200px;
+.head {
+    background-color: #99dfd0;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+}
+
+.head_title{
+    font-weight: 800;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    margin: 30px auto;
+    
+}
+
+.head_button {
+    background-color: rgb(218, 150, 150);
+    width: 400px;
+    padding:60px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.experience {
+    background-color: #ebe48b;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+}
+
+.experience__work {
+    width: 24%;
+    display: inline-block;
 
 }
-   
+
+
+.experience__work--title-work {
+    
+}
+
+
+.experience__work--descript {
+
+}
+
+h2{
+    font-size: 40px;
+    font-family: 800;
+    margin: 60px auto;
+}
+
+.skills {
+    background-color: #bb785e;
+    padding: 20px;
+    height: 50vh;
+    width: 100%;
+}
+
+.skills__all{
+
+}
+
+.courses{
+    background-color: #d87fd1;
+    padding: 20px;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.courses__additional-sills{
+
+}
+
+.projects{
+    background-color: #9fe791;
+    padding: 20px;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.projects__link {
+    display: inline;
+    padding: 20px;
+    
+}
+
+.contact {
+    background-color: #c6cfcf;
+    padding: 20px;
+    height: 50vh;
+    width: 100%;
+}
+
+
+footer {
+    background-color: #5cec30;
+    padding: 20px;
+    
+}
+
+.footer__content {
+    
+    margin: 60px auto;
+
+}
