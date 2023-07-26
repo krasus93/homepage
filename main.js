@@ -6,10 +6,10 @@ const age = 30;
 
 console.log(`Jestem ${firstName} i mam ${age} lat`)
 
-const header = document.querySelector('.head__box--surprise--js')
+const banner = document.querySelector('.head__box--surprise--js')
 
 
 
-header.innerHTML = 'Mam Super Moce!'
+banner.innerHTML = 'Mam Super Moce!'
 
-console.log(`${header.innerHTML}`)
+console.log(`${banner.innerHTML}`)

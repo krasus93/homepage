@@ -6,30 +6,43 @@ body {
 	
 }
 
-.main-content{
-
+.main__content{
+    margin: 0 auto;
+    
 }
 
 .navigation{
     
-    background-color: bisque;
+    background-color: rgb(43, 42, 38);
+    position: sticky;
+    top:0;
+    height: 100px;
+    
+    
     
     
 } 
 
 .navigation__box {
-    max-width: 700px;
-    margin: 50px auto;
+    
+    
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px;
+    
+    
     
 }
 
 .navigation__box--button {
-    padding: 30px;
-    background-color: aquamarine;
+    padding: 20px;
+    background-color: rgb(176, 178, 201);
     border-bottom: 3px solid black;
     font-size: 16px;
-    margin: 50px auto;
+    margin: 0px auto;
     min-height: 50px;
+    border-radius: 20px;
+    
 }
 
 .head {
@@ -40,8 +53,12 @@ body {
 }
 
 .head__box{
-    max-width: 900px;
-    margin: 50px auto;
+    
+    margin: 0px auto;
+    background-color: rgb(197, 195, 168);
+    padding: 28px;
+    border-radius: 20px;
+    max-width: 1200px;
 }
 
 .head__box--title{
@@ -61,13 +78,14 @@ body {
 
 
 
-.head_button {
+.head__box--button {
     background-color: rgb(218, 150, 150);
-    max-width: 400px;
-    padding:60px;
+    
+    padding:20px;
     border-radius: 20px;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 26px;
+    background: #8dbd7e;
     
 }
 
@@ -81,15 +99,21 @@ body {
 }
 
 .experience__box{
-    max-width: 1100px;
+    
     margin: 30px auto;
-    display: flex;
+    max-width: 1200px;
+    
     
 }
 
 .experience__box--work {
-    width: 300px;
-    margin: 0px 20px;
+   
+    margin: 20px 10px;
+    padding:20px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    background: #ecf5e9;
    
 }
 
@@ -106,59 +130,81 @@ body {
 h2{
     font-size: 40px;
     font-family: 800;
-    max-width: 300px;
-    margin: 30px auto;
+    
+    
 }
 
 .skills {
     background-color: #bb785e;
     padding: 20px;
-    height: 50vh;
-    max-width: 100%;
+    min-height: 50vh;
+    
    
 }
 
 .skills__box{
-    max-width: 900px;
+    
     margin: 50px auto;
+    max-width: 1200px;
 }
 
 .skills__box--all{
+    background: #81f1f1;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 400;
     
 }
 
 .courses{
     background-color: #d87fd1;
     padding: 20px;
-    height: 50vh;
+    min-height: 50vh;
+    margin: 0px auto;
     
 
 }
 .course__box{
-    max-width: 900px;
+    
     margin: 50px auto;
+    max-width: 1200px;
 
 }
 
 .courses__box--additional-sills{
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    background: #fdffff;
 
 }
 
 .projects{
     background-color: #9fe791;
     padding: 20px;
-    height: 50vh;
+    min-height: 50vh;
+    
+    
   
     
 }
 
 .projects__box{
-    max-width: 700px;
+    
     margin: 50px auto;
+    max-width: 1200px;
 
 }
 .projects__box--link {
+    
     padding: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    background: #fdffff;
+    margin: 30px 10px;
     
     
 }
@@ -166,28 +212,41 @@ h2{
 .contact {
     background-color: #c6cfcf;
     padding: 20px;
-    height: 50vh;
+    min-height: 50vh;
+   
     
 }
 
-.contact__data{
-    max-width: 600px;
+.contact__box{
+    max-width: 1200px;
+    margin: 00px auto;
+}
+
+.contact__box--data{
+    
     margin: 50px auto;
     background-color: rgb(162, 177, 187);
-    padding:40px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    background: #fdffff;
 }
 
 
 footer {
     background-color: #5cec30;
-    padding: 20px;
+    padding: 10px;
+    margin: 0 auto;
     
 }
 
 .footer__content {
     
-    margin: 60px auto;
+
     background-color: #d87fd1;
     max-Width:300px;
-
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
 }
