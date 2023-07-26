@@ -11,3 +11,5 @@ const header = document.querySelector('.head__box--surprise--js')
 
 
 header.innerHTML = 'Mam Super Moce!'
+
+console.log(`${header.innerHTML}`)

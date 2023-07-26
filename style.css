@@ -11,24 +11,25 @@ body {
 }
 
 .navigation{
-    font-size: 16px;
+    
     background-color: bisque;
-    height: 90px;
+    
     
 } 
 
 .navigation__box {
-    width: 700px;
+    max-width: 700px;
     margin: 50px auto;
+    
 }
 
 .navigation__box--button {
-    padding: 50px;
+    padding: 30px;
     background-color: aquamarine;
     border-bottom: 3px solid black;
-    width: 700px;
+    font-size: 16px;
     margin: 50px auto;
-
+    min-height: 50px;
 }
 
 .head {
@@ -39,7 +40,7 @@ body {
 }
 
 .head__box{
-    width: 900px;
+    max-width: 900px;
     margin: 50px auto;
 }
 
@@ -62,7 +63,7 @@ body {
 
 .head_button {
     background-color: rgb(218, 150, 150);
-    width: 400px;
+    max-width: 400px;
     padding:60px;
     border-radius: 20px;
     font-weight: 800;
@@ -73,23 +74,23 @@ body {
 .experience {
     background-color: #ebe48b;
     padding: 20px;
-    height: 100vh;
+    min-height: 100vh;
+    
     
     
 }
 
 .experience__box{
-    width: 1200px;
+    max-width: 1100px;
     margin: 30px auto;
     display: flex;
+    
 }
 
 .experience__box--work {
-    
-    width:300px;
+    width: 300px;
     margin: 0px 20px;
-    
-
+   
 }
 
 
@@ -105,7 +106,7 @@ body {
 h2{
     font-size: 40px;
     font-family: 800;
-    width: 300px;
+    max-width: 300px;
     margin: 30px auto;
 }
 
@@ -113,12 +114,12 @@ h2{
     background-color: #bb785e;
     padding: 20px;
     height: 50vh;
-    width: 100%;
+    max-width: 100%;
    
 }
 
 .skills__box{
-    width: 900px;
+    max-width: 900px;
     margin: 50px auto;
 }
 
@@ -134,7 +135,7 @@ h2{
 
 }
 .course__box{
-    width: 900px;
+    max-width: 900px;
     margin: 50px auto;
 
 }
@@ -152,7 +153,7 @@ h2{
 }
 
 .projects__box{
-    width: 700px;
+    max-width: 700px;
     margin: 50px auto;
 
 }
@@ -170,7 +171,7 @@ h2{
 }
 
 .contact__data{
-    width: 600px;
+    max-width: 600px;
     margin: 50px auto;
     background-color: rgb(162, 177, 187);
     padding:40px;
@@ -187,6 +188,6 @@ footer {
     
     margin: 60px auto;
     background-color: #d87fd1;
-    Width:300px;
+    max-Width:300px;
 
 }
