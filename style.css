@@ -1,5 +1,6 @@
 body {
-    background: #fefefe;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);al-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     font-family: calibri;
     font-weight: 600;
     
@@ -12,41 +13,37 @@ body {
 }
 
 .navigation{
-    
-    background-color: rgb(43, 42, 38);
+
     position: sticky;
     top:0;
-    height: 100px;
-    
-    
-    
-    
+    height: 60px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    opacity: 70%;
+    background-color: rgb(17, 16, 16);
+     
 } 
 
 .navigation__box {
-    
-    
     max-width: 1200px;
-    margin: 0px auto;
-    padding: 30px;
-    
-    
     
 }
 
 .navigation__box--button {
-    padding: 20px;
-    background-color: rgb(176, 178, 201);
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
     border-bottom: 3px solid black;
     font-size: 16px;
-    margin: 0px auto;
-    min-height: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
+    opacity: 1000%;
     
 }
 
 .head {
-    background-color: #99dfd0;
+   
     padding: 20px;
     height: 100vh;
     
@@ -55,7 +52,7 @@ body {
 .head__box{
     
     margin: 0px auto;
-    background-color: rgb(197, 195, 168);
+    
     padding: 28px;
     border-radius: 20px;
     max-width: 1200px;
@@ -79,18 +76,17 @@ body {
 
 
 .head__box--button {
-    background-color: rgb(218, 150, 150);
     
     padding:20px;
     border-radius: 20px;
     font-weight: 800;
     font-size: 26px;
-    background: #8dbd7e;
+    background-color: white;
     
 }
 
 .experience {
-    background-color: #ebe48b;
+   
     padding: 20px;
     min-height: 100vh;
     
@@ -108,13 +104,13 @@ body {
 }
 
 .experience__box--work {
-   
+    background-color: aliceblue;
     margin: 20px 10px;
     padding:20px;
     border-radius: 20px;
     font-weight: 400;
     font-size: 16px;
-    background: #ecf5e9;
+   
    
 }
 
@@ -136,7 +132,7 @@ h2{
 }
 
 .skills {
-    background-color: #bb785e;
+  
     padding: 20px;
     min-height: 50vh;
     
@@ -147,19 +143,21 @@ h2{
     
     margin: 50px auto;
     max-width: 1200px;
+
 }
 
 .skills__box--all{
-    background: #81f1f1;
+    background-color: aliceblue;
     padding: 20px;
     border-radius: 20px;
     font-size: 40px;
     font-weight: 400;
+    border-radius: 20px;;
     
 }
 
 .courses{
-    background-color: #d87fd1;
+    
     padding: 20px;
     min-height: 50vh;
     margin: 0px auto;
@@ -170,7 +168,7 @@ h2{
     
     margin: 50px auto;
     max-width: 1200px;
-
+    
 }
 
 .courses__box--additional-sills{
@@ -178,16 +176,15 @@ h2{
     border-radius: 20px;
     font-size: 40px;
     font-weight: 300;
-    background: #fdffff;
+    background-color: aliceblue;
 
 }
 
 .projects{
-    background-color: #9fe791;
+ 
     padding: 20px;
     min-height: 50vh;
-    
-    
+  
   
     
 }
@@ -196,6 +193,11 @@ h2{
     
     margin: 50px auto;
     max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
 
 }
 .projects__box--link {
@@ -204,14 +206,14 @@ h2{
     border-radius: 20px;
     font-size: 40px;
     font-weight: 300;
-    background: #fdffff;
+    background-color: aliceblue;
     margin: 30px 10px;
     
     
 }
 
 .contact {
-    background-color: #c6cfcf;
+    
     padding: 20px;
     min-height: 50vh;
    
@@ -226,18 +228,17 @@ h2{
 .contact__box--data{
     
     margin: 50px auto;
-    background-color: rgb(162, 177, 187);
+ 
     padding: 20px;
     border-radius: 20px;
     font-size: 40px;
     font-weight: 300;
-    background: #fdffff;
+    background-color: aliceblue;
 }
 
 
 footer {
-    background-color: #5cec30;
-    padding: 10px;
+     padding: 10px;
     margin: 0 auto;
     
 }
@@ -245,7 +246,6 @@ footer {
 .footer__content {
     
 
-    background-color: #d87fd1;
     max-Width:300px;
     padding: 20px;
     border-radius: 20px;
