@@ -21,9 +21,10 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 1em;
+    gap: 20px;
     opacity: 70%;
     background-color: rgb(17, 16, 16);
+
      
 } 
 
@@ -39,6 +40,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     font-size: 16px;
     border-radius: 10px;
     opacity: 1000%;
+    color:white;
+    text-decoration: none;
     
 }
 
@@ -80,7 +83,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     padding:20px;
     border-radius: 20px;
     font-weight: 800;
-    font-size: 26px;
+    font-size: 20px;
     background-color: white;
     
 }
@@ -150,7 +153,7 @@ h2{
     background-color: aliceblue;
     padding: 20px;
     border-radius: 20px;
-    font-size: 40px;
+    font-size: 26px;
     font-weight: 400;
     border-radius: 20px;;
     
@@ -174,7 +177,7 @@ h2{
 .courses__box--additional-sills{
     padding: 20px;
     border-radius: 20px;
-    font-size: 40px;
+    font-size: 26px;
     font-weight: 300;
     background-color: aliceblue;
 
@@ -204,10 +207,11 @@ h2{
     
     padding: 20px;
     border-radius: 20px;
-    font-size: 40px;
+    font-size: 26px;
     font-weight: 300;
     background-color: aliceblue;
     margin: 30px 10px;
+    text-decoration: none;
     
     
 }
@@ -231,7 +235,7 @@ h2{
  
     padding: 20px;
     border-radius: 20px;
-    font-size: 40px;
+    font-size: 26px;
     font-weight: 300;
     background-color: aliceblue;
 }
