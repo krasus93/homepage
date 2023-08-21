@@ -123,12 +123,6 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     
 }
 
-.experience__box{
-    
-    
-  
-    
-}
 
 .experience__box--work {
     background-color: aliceblue;
@@ -186,9 +180,6 @@ h2{
     
 }
 
-.skills__positions{
-    
-}
 
 .courses{
     
@@ -216,9 +207,7 @@ h2{
 
 }
 
-.courses__positions{
-   
-}
+
 
 .projects{
  
