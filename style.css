@@ -1,7 +1,7 @@
 body {
     background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);al-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    font-family: calibri;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     
 	
@@ -52,39 +52,49 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     
 }
 
-.head__box{
-    
-    margin: 0px auto;
-    
-    padding: 28px;
-    border-radius: 20px;
-    
-}
-
 .head__box--title{
     font-weight: 800;
     font-size: 40px;
-    border-bottom: 2px solid black;
-  
-   
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: aliceblue;
     
 }
 
-.head__box--surprise {
-    font-size: 60px;
-    color: white;
+.head__box{
+    
+    margin: 0px auto;
+    padding: 28px;
+    border-radius: 20px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.photo__head {
+    width: 500px;
+    border-radius: 40px;
+    border: 5px solid white;
+    
 }
 
+.head__box--buttons{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-flow: column;
 
-
+}
 
 .head__box--button {
     
     padding:20px;
     border-radius: 20px;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 25px;
     background-color: white;
+    min-width: 150px;
+    text-align: center;
+    border: 5px solid black;
+    
     
 }
 
@@ -99,11 +109,10 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 .experience__box{
     
-    margin: 30px auto;
     
     display: grid;
     grid-template-columns: 50% 50%;
-    
+    gap:30px;
     
 }
 
@@ -114,18 +123,19 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     border-radius: 20px;
     font-weight: 400;
     font-size: 16px;
+    border: 5px solid black;
    
    
 }
 
 
 .experience__box--work--title-work {
-    
+    font-size: 24px;
 }
 
 
 .experience__box--work--description {
-    
+    font-size: 20px;
 }
 
 h2{
@@ -156,8 +166,15 @@ h2{
     border-radius: 20px;
     font-size: 26px;
     font-weight: 400;
-    border-radius: 20px;;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 20px 10px;
     
+}
+
+.skills__positions{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .courses{
@@ -179,8 +196,16 @@ h2{
     padding: 20px;
     border-radius: 20px;
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 500;
     background-color: aliceblue;
+    border: 5px solid black;
+    margin: 20px 10px;;
+
+}
+
+.courses__positions{
+    display: grid;
+    grid-template-columns: 50% 50%;
 
 }
 
@@ -189,9 +214,6 @@ h2{
     padding: 20px;
     min-height: 50vh;
     
-  
-  
-    
 }
 
 .projects__box{
@@ -199,7 +221,7 @@ h2{
     margin: 50px auto;
     display: grid;
     grid-template-columns: 50% 50%;
-    align-items: center;
+    text-align: center;
     
 
 }
@@ -212,8 +234,14 @@ h2{
     background-color: aliceblue;
     margin: 30px 10px;
     text-decoration: none;
+    border: 5px solid black;
+    font-size: 26px;
+    font-weight: 600;
     
-    
+}
+
+.projects__box--link:hover{
+    background-color: rgb(255, 165, 113);
 }
 
 .contact {
@@ -225,26 +253,50 @@ h2{
 }
 
 .contact__box{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
     
-    margin: 00px auto;
 }
 
-.contact__box--data{
+.contact__box--data1{
     
-    margin: 50px auto;
- 
+
     padding: 20px;
     border-radius: 20px;
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 500;
     background-color: aliceblue;
+    border: 5px solid black;
+    line-height: 40px;
+    
+    
+}
+
+.contact__box--form{
+    
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    background-color: aliceblue;
+    border: 5px solid black;
+    line-height: 40px;
+
+}
+
+textarea{
+    width: 100%;
+    min-height: 200px;
+    resize:none;
 }
 
 
 footer {
-     padding: 10px;
+    padding: 10px;
     margin: 0 auto;
-    
+    color: white;
 }
 
 .footer__content {

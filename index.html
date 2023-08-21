@@ -22,15 +22,23 @@
     <main class="main__content">
 
         <header class="head"> 
-            <div class="head__box">
-                <h1 class="head__box--title">FrontEnd Developer Marek Krasuski</h1>
-                <p class="head__box--button">Doświadczenie</p>
-                <p class="head__box--button">Umiejętności</p>
-                <p class="head__box--button">Kursy</p>
-                <p class="head__box--button">Projekty</p>
-                <p class="head__box--button">Kontakt</p>
-                <div class="head__box--surprise head__box--surprise--js">
+            <h1 class="head__box--title">FrontEnd Developer - Marek Krasuski</h1>
         
+            <div class="head__box--columns">
+                
+                <div class="head__box">
+                    
+                    <div class="photo">
+                        <img class="photo__head" src="Marek copy.jpg" alt="photo">
+                    </div>
+
+                    <div  class="head__box--buttons">
+                        <p class="head__box--button">Doświadczenie</p>
+                        <p class="head__box--button">Umiejętności</p>
+                        <p class="head__box--button">Kursy</p>
+                        <p class="head__box--button">Projekty</p>
+                        <p class="head__box--button">Kontakt</p>
+                    </div>
                 </div>
             </div>
         </header>
@@ -50,8 +58,8 @@
                 </section>
                 
                 <section class="experience__box--work">
-                    <h3 class="experience__work--title-work">Elementor Developer </h3>
-                    <p class="experience__work--description"> Moją pasją jest projektowanie stron interwnetowych dla lokalnych firm w Elementor na platformie Wordpress. Moim zadaniem było stworzenie responsywnego layoutu, przygotowanie tekstów oraz wdrożenie pozycjonowania SEO pod odpowiednie frazy.Przykładowe strony, które wykonałem: mbx.com.pl, sylkosped.pl, weddled.pl, arkadiaradzyn.pl</p>
+                    <h3 class="experience__box--work--title-work">Elementor Developer </h3>
+                    <p class="experience__box--work--description"> Moją pasją jest projektowanie stron interwnetowych dla lokalnych firm w Elementor na platformie Wordpress. Moim zadaniem było stworzenie responsywnego layoutu, przygotowanie tekstów oraz wdrożenie pozycjonowania SEO pod odpowiednie frazy.Przykładowe strony, które wykonałem: mbx.com.pl, sylkosped.pl, weddled.pl, arkadiaradzyn.pl</p>
                 </section>
 
                 <section class="experience__box--work">
@@ -64,33 +72,43 @@
         <section class="skills">
             <div class="skills__box">
                 <h2>Umiejętności</h2>
-                <p class="skills__box--all"> Znajomość ISTQB FL
-                    JIRA/Confluence
-                    Scrum/Agile
-                    SQL
-                    Postman
-                    Manualne testowanie
-                    Tworzenie dokumentacji i instrukcji
-                    HTML, CSS
-                    Środowisko domenowe
-                    Active Directory
-                    System operacyjny: Windows
-                    Podstawy sieci LAN
-                    Wordpress/Elementor
-                    Podstawy SEO </p>
+                <div class="skills__box--all"> 
+                    <ol class="skills__positions">
+                        <li>Znajomość ISTQB FL</li>
+                        <li>JIRA/Confluence</li>
+                        <li>Scrum/Agile</li>
+                        <li>SQL</li>
+                        <li>Postman</li>
+                        <li>Manualne testowanie</li>
+                        <li>Tworzenie dokumentacji i instrukcji</li>
+                        <li>HTML, CSS</li>
+                        <li>Środowisko domenowe</li>
+                        <li>Active Directory</li>
+                        <li>System operacyjny: Windows</li>
+                        <li>Podstawy sieci LAN</li>
+                        <li>Wordpress/Elementor</li>
+                        <li>Podstawy SEO </li>
+                    </ol>
+                </div>
             </div>
         </section>
 
         <section class="courses">
             <div class="course__box">
                 <h2>Kursy</h2>
-                <p class="courses__box--additional-sills">Podstawy oprogramowania do testowania manualnego
-                    Postman - testowanie interfejsów REST API
-                    Scrum w pigułce - szkolenie z ekspertem
-                    Kurs Jira od podstaw - zarządzanie projektami
-                    Windows 10 - od zera do bohatera
-                    Windows Server 2016 - praktyczny przewodnik i konfiguracja
-                    UML and Object-Oriented</p>
+                <div class="courses__box--additional-sills">
+                    <ol class="courses__positions">
+
+                   <li>Podstawy oprogramowania do testowania manualnego</li> 
+                    <li>Postman- testowanie interfejsów REST API</li> 
+                    <li>Scrum w pigułce - szkolenie z ekspertem</li>
+                    <li>Kurs Jira od podstaw - zarządzanie projektami</li>
+                    <li>Windows 10 - od zera do bohatera</li>
+                    <li>Windows Server 2016 - praktyczny przewodnik i konfiguracja</li>
+                    <li>UML and Object-Oriented</li>
+
+                    </ol>
+                </div>
             </div>
         </section>
 
@@ -105,21 +123,59 @@
         </section>
 
         <section class="contact">
+            <h2>Bądźmy w kontakcie</h2>
             <div class="contact__box">
-                <h2>Dane kontaktowe</h2>
-                <p class="contact__box--data">
-                    krasuskimrk@gmail.com
-                    +48 697 481 348
-                    https://linkedin.com/in/marek-krasuski
-                    https://github.com/krasus93 
-                    Lublin</p>
+                <div class="contact__box--data1">
+                    krasuskimrk@gmail.com <br>
+                    +48 697 481 348 <br>
+                    https://linkedin.com/in/marek-krasuski <br>
+                    https://github.com/krasus93 <br>
+                    Lublin
+                </div>
+
+                <div class="contact__box--form">
+                    <fieldset>
+                        <legend>Zamów realizację strony</legend>
+                        <p>
+                            <label for="Imię i nazwisko">Imię i nazwisko</label>
+                            <input placeholder="Imię Nazwisko" id="name and surname" type="text">
+
+                        </p>
+                        <p>
+                            <label for="Nazwa firmy">Nazwa firmy</label>
+                            <input placeholder="Nazwa firmy" id="name company" type="text">
+
+                        </p>
+                        <p>
+                            <label for="Opis zamówienia">Opis zamówienia</label>
+                            <textarea id="order description" name="order description"></textarea>
+                            
+
+                        </p>
+                        <p>
+                            <label for="E-mail">Adres e-mail</label>
+                            <input placeholder="E-mail" id="E-mail" type="text">
+
+                        </p>
+                        <p>
+                            <label for="Nr telefonu">Nr telefonu</label>
+                            <input placeholder="Nr telefonu" id="phone number" type="text">
+
+                        </p>
+                        <p>
+                            <button>Wyślij</button>
+                        </p>
+                    </fieldset>
+
+
+                </div>
             </div>
         </section>
 
     </main>
 
         <footer> 
-            <p class="footer__content">Strona - Marek Krasuski</p>
+            <p class="footer__content">Strona - Marek Krasuski 2023</p>
         </footer>
 <script src="main.js"> 
 
