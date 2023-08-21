@@ -16,7 +16,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
     position: sticky;
     top:0;
-    height: 60px; 
+    height: 80px; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -33,13 +33,15 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     
 }
 
+
+
 .navigation__box--button {
     padding: 10px;
     background-color: rgb(0, 0, 0);
     border-bottom: 3px solid black;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 10px;
-    opacity: 1000%;
+    opacity: 80%;
     color:white;
     text-decoration: none;
     
@@ -48,7 +50,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .head {
    
     padding: 20px;
-    height: 100vh;
+    
     
 }
 
@@ -65,22 +67,36 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     margin: 0px auto;
     padding: 28px;
     border-radius: 20px;
-    display: grid;
-    gap: 40px;
-    grid-template-columns: 1fr 1fr;
+   
     
 }
 .photo__head {
-    width: 500px;
+    width: 100%;
     border-radius: 40px;
     border: 5px solid white;
     
 }
 
+
 .head__box--buttons{
     display: flex;
     flex-direction: column-reverse;
     flex-flow: column;
+
+
+}
+
+.CPA{
+    padding:20px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 25px;
+    background-color: rgb(94, 163, 168);
+    min-width: 150px;
+    text-align: center;
+    border: 5px solid black;
+    text-decoration: none;
+    color: white;
 
 }
 
@@ -110,9 +126,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .experience__box{
     
     
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap:30px;
+  
     
 }
 
@@ -173,8 +187,7 @@ h2{
 }
 
 .skills__positions{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    
 }
 
 .courses{
@@ -204,9 +217,7 @@ h2{
 }
 
 .courses__positions{
-    display: grid;
-    grid-template-columns: 50% 50%;
-
+   
 }
 
 .projects{
@@ -220,11 +231,10 @@ h2{
     
     margin: 50px auto;
     display: grid;
-    grid-template-columns: 50% 50%;
     text-align: center;
-    
 
 }
+
 .projects__box--link {
     
     padding: 20px;
@@ -248,15 +258,18 @@ h2{
     
     padding: 20px;
     min-height: 50vh;
-   
+    padding:0;
     
 }
 
 .contact__box{
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    
+
+    margin:20px;
+
+
+    
     
 }
 
@@ -270,6 +283,8 @@ h2{
     background-color: aliceblue;
     border: 5px solid black;
     line-height: 40px;
+    display:flex;
+    flex-wrap:wrap;
     
     
 }
@@ -283,7 +298,14 @@ h2{
     background-color: aliceblue;
     border: 5px solid black;
     line-height: 40px;
+    display:flex;
+    flex-wrap:wrap;
 
+}
+
+.contact__fieldset{
+    width: 100%;
+    margin:0;
 }
 
 textarea{
@@ -308,6 +330,66 @@ footer {
     margin: 0 auto;
 }
 
-@media screen {
+@media screen and (min-width: 1280px){
+    .head__box{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .photo__head {
+        width: 500px;
+    }
+
+    .head {
+   
+        padding: 20px;
+        height: 100vh;
+        
+    }
+
+    .experience__box{
+    
+    
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap:30px;
+    }
+    .skills__positions{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .courses__positions{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    
+    }
+
+    .projects__box{
+    
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    
+    }
+
+    .contact__box{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        
+    }
+    
+
+}
+
+
+
+
+@media screen and (min-width: 768px){
+    
     
 }
