@@ -9,7 +9,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 .main__content{
     margin: 0 auto;
-    
+    max-width: 1200px;
 }
 
 .navigation{
@@ -58,7 +58,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     
     padding: 28px;
     border-radius: 20px;
-    max-width: 1200px;
+    
 }
 
 .head__box--title{
@@ -100,8 +100,9 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 .experience__box{
     
     margin: 30px auto;
-    max-width: 1200px;
-    display: flex;
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
     
     
 }
@@ -145,7 +146,7 @@ h2{
 .skills__box{
     
     margin: 50px auto;
-    max-width: 1200px;
+    
 
 }
 
@@ -170,7 +171,7 @@ h2{
 .course__box{
     
     margin: 50px auto;
-    max-width: 1200px;
+    
     
 }
 
@@ -187,6 +188,7 @@ h2{
  
     padding: 20px;
     min-height: 50vh;
+    
   
   
     
@@ -195,10 +197,8 @@ h2{
 .projects__box{
     
     margin: 50px auto;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 50% 50%;
     align-items: center;
     
 
@@ -225,7 +225,7 @@ h2{
 }
 
 .contact__box{
-    max-width: 1200px;
+    
     margin: 00px auto;
 }
 
@@ -254,4 +254,8 @@ footer {
     padding: 20px;
     border-radius: 20px;
     margin: 0 auto;
+}
+
+@media screen {
+    
 }
