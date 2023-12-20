@@ -2,8 +2,10 @@ $textColor: hotpink;
 $fontButtonHeader: 26px;
 
 body {
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)al-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background: hsla(145, 44%, 37%, 1);
+background: linear-gradient(90deg, hsla(145, 44%, 37%, 1) 0%, hsla(243, 39%, 46%, 1) 72%, hsla(190, 53%, 56%, 1) 100%);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
 }
 
@@ -163,7 +165,7 @@ body {
             
             }
     }
-
+}
 h2{
     font-size: 40px;
     font-weight: 800;
@@ -197,15 +199,12 @@ h2{
 
 
 .courses{
-    
     padding: 20px;
     min-height: 50vh;
     margin: 0px auto;
-    
-
 }
-.course__box{
-        margin: 50px auto; 
+.courses__box{
+        margin: 50px auto;
         &--additional-sills{
             padding: 20px;
             border-radius: 20px;
@@ -214,7 +213,8 @@ h2{
             background-color: aliceblue;
             border: 5px solid black;
             margin: 20px 10px;
-        }
+        } 
+        
     }
 
 
@@ -403,7 +403,3 @@ footer {
 
 
 
-@media screen and (min-width: 768px){
-    
-    
-}
