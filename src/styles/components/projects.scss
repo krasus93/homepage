@@ -1,0 +1,28 @@
+.projects{
+ 
+    padding: 20px;
+    min-height: 50vh;
+    
+}
+
+.projects{
+    &__box{
+        margin: 50px auto;
+        display: grid;
+        text-align: center;
+        &--link {
+            padding: 20px;
+            border-radius: 20px;
+            font-size: $fontButtonHeader;
+            font-weight: 300;
+            background-color: aliceblue;
+            margin: 30px 10px;
+            text-decoration: none;
+            border: 5px solid black;
+            font-weight: 600;  
+            &:hover{
+                background-color: rgb(255, 165, 113);
+            }
+        }
+    }
+}
