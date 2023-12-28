@@ -4,11 +4,24 @@ $fontButtonHeader: 26px;
 @import "components/projects.scss";
 @import "../../node_modules/normalize.css/normalize.css";
 
+:root {
+    --textColor: rgb(49, 42, 42);
+    --backgroundColor: rgb(194, 194, 194);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root{
+        --textColor: rgb(206, 201, 201);
+        --backgroundColor: rgb(49, 47, 47);
+    }
+    
+}
+
 
 body {
 
     background: hsla(145, 44%, 37%, 1);
-    background: linear-gradient(90deg, hsla(145, 44%, 37%, 1) 0%, hsla(243, 39%, 46%, 1) 72%, hsla(190, 53%, 56%, 1) 100%);
+    backgroundrr: linear-gradient(90deg, hsla(145, 44%, 37%, 1) 0%, hsla(243, 39%, 46%, 1) 72%, hsla(190, 53%, 56%, 1) 100%);
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
@@ -23,7 +36,7 @@ body {
     top:0;
     min-height: 80px; 
     opacity: 70%;
-    background-color: rgb(17, 16, 16);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -37,7 +50,7 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    background-color: rgb(17, 16, 16);
+    background-color: rgb(0, 0, 0);
     opacity: 70%;
     position:absolute;
     top: 80px;
@@ -144,8 +157,9 @@ body {
 
 
 .experience{
+    
     &__box--work {
-        background-color: aliceblue;
+        
         margin: 20px 10px;
         padding:20px;
         border-radius: 20px;
@@ -157,7 +171,7 @@ body {
         }
         &_--title-work {
             font-size: 24px;
-            color: $textColor;
+            
         }
             &::before {
                 content:"";
@@ -186,10 +200,13 @@ h2{
 }
 
 .skills{
+    background: var(--backgroundColor);
+    color: var(--textColor);
+    
     &__box{
         margin: 50px auto;
         &--all{
-            background-color: aliceblue;
+            
             padding: 20px;
             border-radius: 20px;
             font-size: $fontButtonHeader;
@@ -217,7 +234,7 @@ h2{
             border-radius: 20px;
             font-size: $fontButtonHeader;
             font-weight: 500;
-            background-color: aliceblue;
+            
             border: 5px solid black;
             margin: 20px 10px;
         }
@@ -245,7 +262,7 @@ h2{
             border-radius: 20px;
             font-size: $fontButtonHeader;
             font-weight: 600;
-            background-color: aliceblue;
+            
             border: 5px solid black;
             line-height: 40px;
         }
@@ -254,7 +271,7 @@ h2{
             border-radius: 20px;
             font-size: $fontButtonHeader;
             font-weight: 600;
-            background-color: aliceblue;
+            
             border: 5px solid black;
             line-height: 40px;
             display:flex;
@@ -370,6 +387,8 @@ footer {
     .hamburger{
         display: none;
     }
+
+    
 
 }
 
