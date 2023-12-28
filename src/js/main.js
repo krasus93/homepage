@@ -1,9 +1,9 @@
+import { hamburger, myFavouriteColour } from "./hamburger.js";
 
 
 
 
-
-
+console.log (myFavouriteColour);
 
 
 function welcome (Name, age){
@@ -20,7 +20,7 @@ welcome ("dzerry",50);
 
 
 
-const hamburger = document.querySelector ('.hamburger-menu-js')
+
 
 console.log(hamburger)
 
