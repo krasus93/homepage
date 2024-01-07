@@ -2,11 +2,11 @@
 
 ##Technologie:
 
--html
--css
--javascript
--scss
--node.js
--npm
--parcel
+- html
+- css
+- javascript
+- scss
+- node.js
+- npm
+- parcel
 
